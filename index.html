@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Udacity: Pixel Art Maker!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <h1 class="rainbow-text">Udacity: Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="pixelSize">
+        Grid Height:
+        <input type="number" id="pixelLength" name="height" min="1" value="1">
+        Grid Width:
+        <input type="number" id="pixelBreadth" name="width" min="1" value="1">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="pixelColor">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+
+    <script src="javascript/canvasDesigns.js"></script>
+</body>
+</html>
